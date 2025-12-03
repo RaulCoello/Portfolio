@@ -6,11 +6,9 @@ import {
   TimelineIcon,
   TimelineBody,
   Typography,
-  Button,
 } from "@material-tailwind/react";
 import Image from "next/image";
 import navListMenuItems from "@/Data/ExperienciaLoboralData";
-import { ArrowRightEndOnRectangleIcon } from "@heroicons/react/24/solid";
 export function ExperienciaL() {
   return (
     <div

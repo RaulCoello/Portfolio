@@ -7,6 +7,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import Image from "next/image";
+import ImgPresentacion from "../../public/img/Home/face-3.jpg";
 
 export function Presentacion() {
   return (
@@ -14,7 +15,7 @@ export function Presentacion() {
       <div className="flex lg:flex-row flex-col gap-3">
         <div className="mx-auto items-center justify-center">
           <Image
-            src={"../img/Home/face-3.jpg"}
+            src={ImgPresentacion}
             alt="Vercel Logo"
             className="mx-auto rounded-full border-4 border-gray-500"
             width={250}

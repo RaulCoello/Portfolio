@@ -1,9 +1,14 @@
 // lista de proyectos destacados
+import img1 from "../../public/img/Home/Logouteq.png";
+import img2 from "../../public/img/Home/FeYa.png";
+import img3 from "../../public/img/Home/ex.png";
+import img4 from "../../public/img/Home/TechCorpArtIMG.png";
+
 const navListMenuItemsProyectos = [
   {
     title: "Encuestas app",
     description: "Universidad Técnica Estatal de Quevedo",
-    imgUrl: "/img/Home/Logouteq.png",
+    imgUrl: img1,
     url: "https://app.uteq.edu.ec/",
     id: "#Encuestaapp",
     resumen:
@@ -12,7 +17,7 @@ const navListMenuItemsProyectos = [
   {
     title: "Comunikids",
     description: "Fe y Alegría - Santo Domingo",
-    imgUrl: "/img/Home/FeYa.png",
+    imgUrl: img2,
     url: "https://fyc.uteq.edu.ec/comunikids/Acerca",
     id: "#Comunikids",
     resumen:
@@ -21,7 +26,7 @@ const navListMenuItemsProyectos = [
   {
     title: "Comisariato Polita",
     description: "Buena Fé",
-    imgUrl: "/img/Home/ex.png",
+    imgUrl: img3,
     url: "",
     id: "#Polita",
     resumen:
@@ -30,7 +35,7 @@ const navListMenuItemsProyectos = [
   {
     title: "Turismo Canoa",
     description: "Canoa",
-    imgUrl: "/img/Home/ex.png",
+    imgUrl: img3,
     url: "https://raulcoello.github.io/TurismoCanoa/",
     id: "#Canoa",
     resumen:
@@ -39,7 +44,7 @@ const navListMenuItemsProyectos = [
   {
     title: "TechCorp",
     description: "Buena Fé",
-    imgUrl: "/img/Home/TechCorpArtIMG.png",
+    imgUrl: img4,
     url: "http://www.techcorpbs.com/",
     id: "#TechCorp",
     resumen:
@@ -48,7 +53,7 @@ const navListMenuItemsProyectos = [
   {
     title: "Sistema POS TechCorp",
     description: "Buena Fé",
-    imgUrl: "/img/Home/TechCorpArtIMG.png",
+    imgUrl: img4,
     url: "http://www.techcorpbs.com/",
     id: "#TechCorp",
     resumen:

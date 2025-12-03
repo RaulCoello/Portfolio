@@ -1,6 +1,9 @@
 import { Typography, Button } from "@material-tailwind/react";
 import Image from "next/image";
 
+import gitIcon from "../../public/img/Home/github.png";
+import LinkIcon from "../../public/img/Home/linkedin.png";
+
 export function Contacto() {
   return (
     <div
@@ -15,7 +18,7 @@ export function Contacto() {
         <div className="transition-all duration-300 ease-in-out hover:scale-110">
           <a href="https://www.linkedin.com/in/raul-steven-coello-castillo-387124208">
             <Image
-              src="/img/Home/linkedin.png"
+              src={LinkIcon}
               alt="Linkedin"
               className={`mx-auto bg-white rounded-none  `}
               width={300}
@@ -27,7 +30,7 @@ export function Contacto() {
         <div className="transition-all duration-300 ease-in-out hover:scale-110">
           <a href="https://github.com/RaulCoello">
             <Image
-              src="/img/Home/github.png"
+              src={gitIcon}
               alt="GitHub"
               className={`mx-auto bg-white rounded-none  `}
               width={300}
