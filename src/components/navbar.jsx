@@ -107,9 +107,8 @@ function NavListMenu() {
         <Square3Stack3DIcon className="h-[18px] w-[18px] text-blue-gray-500" />{" "}
         Experiencia Laboral{" "}
       </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
+      {/*ml-6 flex w-full flex-col gap-1 lg:hidden */}
+      <ul className="ml-6  w-full flex-col gap-1 hidden">{renderItems}</ul>
     </React.Fragment>
   );
 }
@@ -185,9 +184,8 @@ function NavListMenuProyectos() {
         <Square3Stack3DIcon className="h-[18px] w-[18px] text-blue-gray-500" />{" "}
         Proyectos Destacados{" "}
       </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
+      {/*ml-6 flex w-full flex-col gap-1 lg:hidden */}
+      <ul className="ml-6  w-full flex-col gap-1 hidden">{renderItems}</ul>
     </React.Fragment>
   );
 }

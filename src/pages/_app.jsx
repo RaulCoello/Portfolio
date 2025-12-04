@@ -8,9 +8,11 @@ export default function App({ Component, pageProps }) {
 */
 export default function App({ Component, pageProps }) {
   return (
-    <MaterialTailwindControllerProvider>
-      <Component {...pageProps} />
-    </MaterialTailwindControllerProvider>
+    <>
+      <MaterialTailwindControllerProvider>
+        <Component {...pageProps} />
+      </MaterialTailwindControllerProvider>
+    </>
   );
 }
 
