@@ -5,6 +5,7 @@ import img3 from "../../public/img/Home/cer3.png";
 import img4 from "../../public/img/Home/cer4.png";
 import img5 from "../../public/img/Home/cer5.png";
 import img6 from "../../public/img/Home/cer6.png";
+import img7 from "../../public/img/Home/cer7.png";
 
 const ListCertificados = [
   {
@@ -54,6 +55,14 @@ const ListCertificados = [
     pdf: "PDF/cer6.pdf",
     url: "https://www.credly.com/badges/d2f8c5e6-7b2c-4943-8111-c0cb0e2110e5",
     shadow: "shadow-blue-600",
+  },
+  {
+    title: "Introduction to Cybersecurity",
+    Auspicio: "Cisco Networking AcademyCisco Networking Academy",
+    imgUrl: img7,
+    pdf: "PDF/cer7.pdf",
+    url: "https://www.credly.com/badges/6d696484-fe00-463a-8e4e-a4e0c92d6e32",
+    shadow: "shadow-light-green-600",
   },
 ];
 
