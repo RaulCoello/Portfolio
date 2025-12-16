@@ -6,6 +6,7 @@ import img4 from "../../public/img/Home/cer4.png";
 import img5 from "../../public/img/Home/cer5.png";
 import img6 from "../../public/img/Home/cer6.png";
 import img7 from "../../public/img/Home/cer7.png";
+import img8 from "../../public/img/Home/cer8.png";
 
 const ListCertificados = [
   {
@@ -63,6 +64,14 @@ const ListCertificados = [
     pdf: "PDF/cer7.pdf",
     url: "https://www.credly.com/badges/6d696484-fe00-463a-8e4e-a4e0c92d6e32",
     shadow: "shadow-light-green-600",
+  },
+  {
+    title: "IT Customer Support",
+    Auspicio: "Cisco Networking AcademyCisco Networking Academy",
+    imgUrl: img8,
+    pdf: "PDF/cer8.pdf",
+    url: "https://www.credly.com/badges/b805c654-cbac-4dbb-9f19-64c51f3418bc",
+    shadow: "shadow-blue-600",
   },
 ];
 
